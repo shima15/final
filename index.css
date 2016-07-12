@@ -1,0 +1,5 @@
+.main {
+  max-width:600px; /* 要素の幅を指定する（固定幅ならwidth:600px;） */
+      margin:0 auto; /* ブロック要素の中央揃え */
+       text-align:center;
+}
