@@ -1,4 +1,16 @@
-console.log("start video.js");
+
+ function neko_1(0){
+   if (num == 0) {
+   var video;
+   video = document.querySelector("neko1");
+  }
+
+  else(num == 1)
+  {
+
+  }
+
+}
 
 function play(){
   var video;
