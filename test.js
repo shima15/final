@@ -1,4 +1,5 @@
 
+//表示・非表示のボタン
 
 function neko_1(num)
 {
@@ -79,19 +80,19 @@ function dog_3(num)
   }
 }
 
+//再生とかのボタン
 
-
- console.log("start video.js");
+ console.log("start test.js");
 
  function play(){
    var video;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    video.play();
  }
 
  function pause(){
    var video;
-   video = document.querySelector("video");
+   video = document.querySelector("neko_1");
    video.pause();
  }
 
@@ -135,6 +136,7 @@ function dog_3(num)
    video.volume = newVolume
  }
 
+function init(){
  var playButton = document.querySelector("[data-role=play]");
  var pauseButton = document.querySelector("[data-role=pause]");
  var skip10secButton = document.querySelector("[data-role=skip10sec]");
@@ -153,3 +155,4 @@ function dog_3(num)
  muteButton.addEventListener("click", mute);
  volumeDownButton.addEventListener("click", volumeDown);
  volumeUpButton.addEventListener("click", volumeUp);
+}
