@@ -80,9 +80,7 @@ function dog_3(num)
   }
 }
 
-//再生とかのボタン
-
- console.log("start test.js");
+//neko_1の再生ボタン
 
  function play(){
    var video;
@@ -92,38 +90,38 @@ function dog_3(num)
 
  function pause(){
    var video;
-   video = document.querySelector("neko_1");
+   video = document.querySelector("#neko_1");
    video.pause();
  }
 
  function skip10sec(){
    var video;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    video.currentTime = video.currentTime + 10;
  }
 
  function back10sec(){
    var video;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    video.currentTime = video.currentTime - 10;
  }
 
  function stop(){
    var video;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    video.currentTime = video.currentTime - video.currentTime;
    video.pause();
  }
 
  function mute(){
    var avideo;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    audio.muted = true;
  }
 
  function volumeDown(){
    var video, newVolume;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    newVolume = video.volume - 0.1
    video.volume = newVolume
    //video.volume() = Math.max(0, video.volume - 0.1) ;
@@ -131,7 +129,7 @@ function dog_3(num)
 
  function volumeUp(){
    var videoo, newVolume;
-   video = document.querySelector("video");
+   video = document.querySelector("#neko_1");
    newVolume = video.volume + 0.1
    video.volume = newVolume
  }
