@@ -18,11 +18,67 @@ function neko_2(num)
   {
     document.getElementById("neko_2").style.visibility="visible";
   }
-  else 
+  else
   {
     document.getElementById("neko_2").style.visibility="hidden";
   }
 }
+function neko_3(num)
+{
+  if (num == 4)
+  {
+    document.getElementById("neko_3").style.visibility="visible";
+  }
+  else
+  {
+    document.getElementById("neko_3").style.visibility="hidden";
+  }
+}
+function neko_4(num)
+{
+  if (num == 6)
+  {
+    document.getElementById("neko_4").style.visibility="visible";
+  }
+  else
+  {
+    document.getElementById("neko_4").style.visibility="hidden";
+  }
+}
+function dog_1(num)
+{
+  if (num == 8)
+  {
+    document.getElementById("dog_1").style.visibility="visible";
+  }
+  else
+  {
+    document.getElementById("dog_1").style.visibility="hidden";
+  }
+}
+function dog_2(num)
+{
+  if (num == 10)
+  {
+    document.getElementById("dog_2").style.visibility="visible";
+  }
+  else
+  {
+    document.getElementById("dog_2").style.visibility="hidden";
+  }
+}
+function dog_3(num)
+{
+  if (num == 12)
+  {
+    document.getElementById("dog_3").style.visibility="visible";
+  }
+  else
+  {
+    document.getElementById("dog_3").style.visibility="hidden";
+  }
+}
+
 
 
  console.log("start video.js");
